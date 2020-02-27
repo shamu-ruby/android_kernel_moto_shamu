@@ -15,3 +15,6 @@ header-y += audio_slimslave.h
 header-y += voice_params.h
 header-y += audio_effects.h
 header-y += devdep_params.h
+
+no-export-headers += asoc.h
+no-export-headers += usb_stream.h
